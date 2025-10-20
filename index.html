@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assignment.css">
+</head>
+
+<body>
+
+    <h1>Practice on Conditional Statements</h1>
+    <div class="card">
+        <h3>1. Convert address to lowercase</h3>
+        <input id="address" placeholder="Enter address">
+        <button onclick="toLowercase()">Convert</button>
+        <p id="addressResult" class="result"></p>
+    </div>
+
+    <div class="card">
+        <h3>2. Remove extra spaces</h3>
+        <input id="essay" placeholder="Enter text with extra spaces">
+        <button onclick="removeExtraSpaces()">Clean Text</button>
+        <p id="spaceResult" class="result"></p>
+    </div>
+
+    <div class="card">
+        <h3>3. Check Discount</h3>
+        <input id="cartItems" type="number" placeholder="Enter number of items">
+        <button onclick="checkEven()">Check</button>
+        <p id="evenResult" class="result"></p>
+    </div>
+
+    <div class="card">
+        <h3>4. Categorize temperature</h3>
+        <input id="temp" type="number" placeholder="Enter temperature (°C)">
+        <button onclick="checkTemperature()">Check</button>
+        <p id="tempResult" class="result"></p>
+    </div>
+
+    <div class="card">
+        <h3>5. Calculate BMI</h3>
+        <input id="weight" type="number" placeholder="Weight (kg)">
+        <input id="height" type="number" placeholder="Height (m)">
+        <button onclick="calculateBMI()">Calculate</button>
+        <p id="bmiResult" class="result"></p>
+    </div>
+
+    <div class="card">
+        <h3>6. Validate Username</h3>
+        <input id="username" placeholder="Enter username">
+        <button onclick="validateUsername()">Validate</button>
+        <p id="usernameResult" class="result"></p>
+    </div>
+
+    <div class="card">
+        <h3>7. Check luggage weight</h3>
+        <input id="luggage" type="number" placeholder="Enter luggage weight (kg)">
+        <button onclick="checkLuggage()">Check</button>
+        <p id="luggageResult" class="result"></p>
+    </div>
+
+    <div class="card">
+        <h3>8. Validate OAU email</h3>
+        <input id="email" placeholder="Enter email">
+        <button onclick="validateEmail()">Check</button>
+        <p id="emailResult" class="result"></p>
+    </div>
+
+    <div class="card">
+        <h3>9. Student Grading System</h3>
+        <input id="score" type="number" placeholder="Enter score (0–100)">
+        <button onclick="getGrade()">Get Grade</button>
+        <p id="gradeResult" class="result"></p>
+    </div>
+
+    <div class="card">
+        <h3>10. Supermarket Discount</h3>
+        <input id="DiscountInput" type="number" placeholder="Enter purchase amount">
+        <button onclick="toClaimDiscount()">Check Discount</button>
+        <p id="discountresult" class="result"></p>
+    </div>
+
+    <div class="card">
+        <h3>11. JAMB Eligibility Checker</h3>
+        <input id="jambScore" type="number" placeholder="Enter JAMB score">
+        <select id="course">
+            <option value="Medicine">Medicine</option>
+            <option value="Engineering">Engineering</option>
+            <option value="Sciences">Sciences</option>
+            <option value="Arts">Arts</option>
+        </select>
+        <button onclick="checkJamb()">Check Eligibility</button>
+        <p id="jambResult" class="result"></p>
+    </div>
+
+    <div class="card">
+        <h3>12. Voter Eligibility</h3>
+        <input id="birthYear" type="number" placeholder="Enter birth year">
+        <button onclick="checkVoter()">Check Eligibility</button>
+        <p id="voteResult" class="result"></p>
+    </div>
+
+</body>
+<script src="assignment .js"></script>
+</html>
